@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Michal Gieysztor RESUME</string>
     <string name="resume_owner_full_name">Michal Gieysztor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+
 </resources>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Michał Gieysztor CV</string>
+    <string name="open_drawer">otwórz szufladę menu</string>
+    <string name="close_drawer">zamknij szufladę menu</string>
 </resources>

@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:background="@color/primary_light"
-    android:padding="8dp">
+    android:layout_height="150dp"
+    android:background="@color/primary_light">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/accent"
-        android:text="Michał Gieysztor"
-        android:layout_alignParentBottom="true"
-        android:textSize="20sp"
-        android:background="@color/primary_light"
-        />
-
-</RelativeLayout>
+        android:scaleType="fitXY"
+        android:src="@drawable/navigation_header" />
+</FrameLayout>
