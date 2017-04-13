@@ -1,50 +1,33 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="pl.sdacademy.mg.myresume.AboutFragment">
 
-
-    <TableLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TableRow>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="2"
-                android:text="@string/resume_owner_full_name"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
 
-        </TableRow>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/fragment_about_label_left_margin"
+            android:layout_marginTop="@dimen/fragment_about_label_left_margin"
+            android:src="@drawable/portrait" />
 
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="e-mail:"
-                />
+        <LinearLayout
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="michal.gieysztor@gmail.com"
+            android:id="@+id/about_fragment_linear_layout"
+            android:layout_marginTop="@dimen/fragment_about_label_left_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
 
-                />
-
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="phone:"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:text="phone: +48 791 371 402"/>
-        </TableRow>
-    </TableLayout>
-
+    </LinearLayout>
 
 </FrameLayout>
