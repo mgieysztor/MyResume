@@ -63,4 +63,6 @@ public class ViewPagerAdaper extends FragmentPagerAdapter {
         }
         return super.getPageTitle(position);
     }
+
+
 }
