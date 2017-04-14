@@ -13,7 +13,7 @@ import pl.sdacademy.mg.myresume.Model.Employment;
 public class EmploymentRepository {
     private List<Employment> employmentList;
 
-    private EmploymentRepository() {
+    private void prepareEmploymentRepository() {
 
         employmentList = new ArrayList<>();
         List<Duty> employer1DutyList = new ArrayList<>();
@@ -80,6 +80,7 @@ public class EmploymentRepository {
         employmentList.add(employment3);
     }
     public List<Employment> getEmploymentList (){
+        prepareEmploymentRepository();
         return employmentList;
     }
 }
