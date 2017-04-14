@@ -52,17 +52,11 @@ public class CareerHistoryFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        
-        View view  = null;
 
-        if (view == null) {
-            view = inflater.inflate(R.layout.fragment_career_history, container, true);
-        } else {
-            ((ViewGroup) view.getParent()).removeView(view);
-        }
+        View view  = inflater.inflate(R.layout.fragment_career_history, container, false);
 
-     
         Log.i("container.getParent", "" + container.getParent());
+
         mRecyclerView = (RecyclerView) view.findViewById(R.id.career_history_fragment_recyclerView);
         RecyclerView.LayoutManager mLinearLayoutManager = new LinearLayoutManager(getContext().getApplicationContext());
 

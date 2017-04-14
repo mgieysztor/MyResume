@@ -27,6 +27,7 @@ public class EmploymentListAdapter extends RecyclerView.Adapter<EmploymentListAd
         public TextView mPosition;
         public TextView mCompany;
         public TextView mCompanyLocation;
+        public TextView
 
         public EmploymentHolder(View itemView) {
             super(itemView);
@@ -44,8 +45,7 @@ public class EmploymentListAdapter extends RecyclerView.Adapter<EmploymentListAd
 
     @Override
     public EmploymentHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        parent.removeView(parent.getRootView());
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_career_row, parent, true);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_career_row, parent, false);
         return new EmploymentHolder(itemView);
     }
 
