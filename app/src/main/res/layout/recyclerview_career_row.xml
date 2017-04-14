@@ -37,6 +37,7 @@
             tools:text="Sep.2014-Mar.2017" />
 
         <TextView
+            android:id="@+id/career_row_company_description"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             tools:text="Manufacturing Company converting plastics, paper and cardboard into office use commodity goods. Cast extrusion of various types of films, welding, recycling, graphic industry post printing processes. Private label production for domestic and export markets."

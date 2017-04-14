@@ -1,6 +1,8 @@
-package pl.sdacademy.mg.myresume;
+package pl.sdacademy.mg.myresume.Model;
 
 import java.util.List;
+
+import pl.sdacademy.mg.myresume.Model.Duty;
 
 /**
  * Created by RENT on 2017-04-13.

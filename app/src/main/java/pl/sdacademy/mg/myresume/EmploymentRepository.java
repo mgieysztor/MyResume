@@ -3,12 +3,15 @@ package pl.sdacademy.mg.myresume;
 import java.util.ArrayList;
 import java.util.List;
 
+import pl.sdacademy.mg.myresume.Model.Duty;
+import pl.sdacademy.mg.myresume.Model.Employment;
+
 /**
  * Created by Michał on 13-04-2017.
  */
 
 public class EmploymentRepository {
-    private List<Employment> employmentList = new ArrayList<>();
+    private List<Employment> employmentList;
 
     private EmploymentRepository() {
 
@@ -76,5 +79,7 @@ public class EmploymentRepository {
         employmentList.add(employment2);
         employmentList.add(employment3);
     }
-
+    public List<Employment> getEmploymentList (){
+        return employmentList;
+    }
 }

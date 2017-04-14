@@ -1,4 +1,4 @@
-package pl.sdacademy.mg.myresume;
+package pl.sdacademy.mg.myresume.Views;
 
 
 import android.os.Bundle;
@@ -7,19 +7,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import pl.sdacademy.mg.myresume.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class PersonalSummaryFragment extends Fragment {
+public class KeyCompetenciesFragment extends Fragment {
 
 
-    public PersonalSummaryFragment() {
+    public KeyCompetenciesFragment() {
         // Required empty public constructor
     }
 
-    public static PersonalSummaryFragment newInstance() {
-        PersonalSummaryFragment fragment = new PersonalSummaryFragment();
+    public static KeyCompetenciesFragment newInstance() {
+        KeyCompetenciesFragment fragment = new KeyCompetenciesFragment();
         return fragment;
     }
 
@@ -27,7 +29,7 @@ public class PersonalSummaryFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_personal_summary, container, false);
+        return inflater.inflate(R.layout.fragment_key_competencies, container, false);
     }
 
 }

@@ -1,4 +1,4 @@
-package pl.sdacademy.mg.myresume;
+package pl.sdacademy.mg.myresume.Model;
 
 /**
  * Created by RENT on 2017-04-13.
